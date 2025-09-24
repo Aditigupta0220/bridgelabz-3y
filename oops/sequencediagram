@@ -1,0 +1,7 @@
+Student        Course         School
+   |              |              |
+   | enroll(c)     |              |
+   |------------->|              |
+   |              | addStudent(s)|
+   |              |<-------------|
+   |              |              |

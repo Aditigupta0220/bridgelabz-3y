@@ -1,0 +1,19 @@
++----------------+       0..*        +----------------+
+|    School      |------------------|    Student      |
++----------------+ Aggregation      +----------------+
+| -name: String  |                  | -name: String   |
+| -students: []  |                  | -courses: []    |
+| +addStudent()  |                  | +enroll(course) |
+|                |                  | +viewCourses()  |
++----------------+                  +----------------+
+                                        | 0..*
+                                        |
+                                        |
+                                  +----------------+
+                                  |    Course      |
+                                  +----------------+
+                                  | -name: String  |
+                                  | -students: []  |
+                                  | +addStudent()  |
+                                  | +viewStudents()|
+                                  +----------------+

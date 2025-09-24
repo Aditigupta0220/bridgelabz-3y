@@ -1,0 +1,12 @@
+Objects:
+uni1: University ("Tech University")
+dept1: Department ("Computer Science")
+dept2: Department ("Physics")
+fac1: Faculty ("Dr. Aditi")
+fac2: Faculty ("Dr. Raj")
+
+Relationships:
+uni1.departments → [dept1, dept2]
+dept1.faculties → [fac1]
+dept2.faculties → [fac2]
+fac1, fac2 → independent objects (can exist without departments)

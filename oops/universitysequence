@@ -1,0 +1,6 @@
+University       Department
+   |                 |
+   | delete()        |
+   |---------------->|
+   | clear depts     |
+   |----------------> (departments removed)
